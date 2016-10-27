@@ -8,7 +8,7 @@
 </head>
 <body>
 <jsp:useBean id="obj" class="com.demo.HelloBean" />
-
+<h2>Hello!</h2>
 <%
 	if(obj.getConnection() != null) {
 		out.println("Connected to DB!");
